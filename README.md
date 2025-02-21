@@ -15,7 +15,7 @@ A metodologia aplicada envolve a conversão dos eventos da partida em transaçõ
 │── 📂 data/                  # Conjunto de dados
     ├── processado.json        # Base de dados processada para EDA
 │── 📂 notebooks/             # Notebooks para análise
-│   ├── 📜 exploracao.ipynb   # Análise inicial do dataset
+    ├── 📜 exploracao.ipynb   # Análise inicial do dataset
     ├── 📜 mineracao.ipynb    # Mineração de padrões sequenciais
 ```
 
@@ -24,6 +24,17 @@ A metodologia aplicada envolve a conversão dos eventos da partida em transaçõ
 2. **Preparação dos Dados:** Transformação dos eventos de jogo em sequências que representam jogadas completas que terminam com uma finalização.
 3. **Mineração de Padrões:** Aplicação de algoritmos de mineração para encontrar sequências frequentes de ações.
 4. **Análise:** Interpretação dos padrões encontrados e visualização dos resultados.
+
+## 🛠 Tecnologias Utilizadas
+- **Linguagem:** Python 🐍
+- **Bibliotecas:**
+  - `pandas` → Manipulação e análise de dados
+  - `numpy` → Operações numéricas eficientes
+  - `json` → Manipulação de arquivos no formato JSON
+  - `glob` → Busca e manipulação de arquivos em diretórios
+  - `os` → Operações no sistema de arquivos
+  - `matplotlib` e `seaborn` → Visualização de dados e gráficos
+  - `prefixspan` → Mineração de padrões sequenciais
 
 ## 📊 Fonte dos Dados
 Os dados utilizados no projeto são provenientes do [StatsBomb Open Data](https://github.com/statsbomb/open-data), uma base de dados pública contendo informações detalhadas sobre eventos em partidas de futebol e várias outras informações.
