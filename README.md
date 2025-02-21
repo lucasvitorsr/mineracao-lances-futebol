@@ -7,15 +7,17 @@ O futebol é um esporte dinâmico e estratégico, onde pequenos padrões de joga
 
 A metodologia aplicada envolve a conversão dos eventos da partida em transações sequenciais e a utilização de algoritmo de mineração de padrões Prefixspan para extrair insights relevantes.
 
-## 🗂 Estrutura do Repositório
-- **README.md**: Este arquivo de documentação.
-- **requirements.txt**: Arquivos e bibliotecas necessários para o projeto.
-- **data/**: Diretório para armazenar os dados.
-  - **processado.json**: Base de dados processada
-- **notebooks/**: Diretório contendo notebooks para análise.
-  - **exploracao.ipynb**: Análise inicial do dataset.
-  - **mineracao.ipynb**: Mineração de padrões sequenciais.
-- **.gitignore**: Arquivos a serem ignorados pelo Git.
+## 📂 Estrutura do Repositório
+```
+📂 previsao-doencas-cardiacas
+│── 📜 README.md              # Documentação do projeto
+│── 📜 requirements.txt       # Dependências do projeto
+│── 📂 data/                  # Conjunto de dados
+    ├── processado.json        # Base de dados processada para EDA
+│── 📂 notebooks/             # Notebooks para análise
+│   ├── 📜 exploracao.ipynb   # Análise inicial do dataset
+    ├── 📜 mineracao.ipynb    # Mineração de padrões sequenciais
+```
 
 ## 🏗 Etapas do Projeto
 1. **Entendimento dos Dados:** Exploração inicial do dataset para compreender sua estrutura e granularidade.
