@@ -9,7 +9,7 @@ A metodologia aplicada envolve a conversão dos eventos da partida em transaçõ
 
 ## 📂 Estrutura do Repositório
 ```
-📂 previsao-doencas-cardiacas
+📂 mineracao-lances-futebol
 │── 📜 README.md              # Documentação do projeto
 │── 📜 requirements.txt       # Dependências do projeto
 │── 📂 data/                  # Conjunto de dados
